@@ -9,7 +9,6 @@ install:
   jsonapi_image_styles: 0
   jsonapi_menu_items: 0
   jsonapi_resources: 0
-  jsonapi_schema: 0
   image: 0
   next: 0
 
