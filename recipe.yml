@@ -3,20 +3,17 @@ description: 'Headless Drupal with JSON:API'
 type: 'Site'
 
 install:
-  jsonapi: 0
-  jsonapi_defaults: 0
-  jsonapi_extras: 0
-  jsonapi_image_styles: 0
-  jsonapi_menu_items: 0
-  jsonapi_resources: 0
-  image: 0
-  next: 0
+  - jsonapi
+  - jsonapi_defaults
+  - jsonapi_extras
+  - jsonapi_image_styles
+  - jsonapi_menu_items
+  - jsonapi_resources
+  - image
+  - next
 
 config:
-  import:
-    image:
-      - image.style.webp
-actions:
-  jsonapi_image_styles.settings:
-    image_styles:
-      - webp: webp
+  actions:
+    jsonapi_image_styles.settings:
+      simpleConfigUpdate:
+        image_styles: ['webp']

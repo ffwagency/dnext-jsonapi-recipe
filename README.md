@@ -52,13 +52,22 @@ composer require nikolabintev/headless-jsonapi-recipe
 
 ## Applying the recipe
 
-Apply the recipe using the following command:
-```bash
-php web/core/scripts/drupal recipe web/recipes/contrib/seo-recipe
+### Cache rebuild
+Before applying the recipe, ensure the cache is rebuilt, so the module and theme extensions are updated with
+the newly installed ones from the recipe.
 
+```bash
+drush cr
+```
+
+### Apply
+
+<strong>Important!</strong> The recipe must be applied within the Drupal container from Drupal's project root directory.
+```bash
+cd {PROJECT_ROOT}
+php core/scripts/drupal recipe recipes/contrib/headless-jsonapi-recipe
 ```
 ---
-
 ## Features
 ### JSON:API
 The JSON:API module provides a standards-compliant API for accessing and manipulating Drupal content.
