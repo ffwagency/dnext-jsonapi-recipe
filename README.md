@@ -45,7 +45,7 @@ web/recipes/contrib
 ### Require the package
 Require the package using composer.
 ```bash
-composer require ffwagency/dnext-jsonapi-recipe
+composer require jakala/dnext-jsonapi-recipe
 ```
 
 ---
