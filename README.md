@@ -1,7 +1,7 @@
-# Headless - JSON:API
+# DNext - JSON:API
 
 ## Overview
-The Headless - JSON:API recipe provides a comprehensive setup for creating a headless Drupal application using JSON:API. This recipe includes essential modules and configurations to enable seamless integration with front-end frameworks and applications. It is designed to facilitate the development of decoupled Drupal sites, offering robust API capabilities and efficient content delivery.
+The DNext - JSON:API recipe provides a comprehensive setup for creating a decoupled Drupal application using JSON:API and Next.js. This recipe includes essential modules and configurations to enable seamless integration between Drupal and Next.js. It is designed to facilitate the development of modern, performant websites by combining Drupal's powerful content management capabilities with Next.js's server-side rendering and static site generation features.
 
 ## Prerequisites
 Ensure your Drupal installation is configured to apply recipes by following the instructions:
@@ -24,7 +24,7 @@ web/recipes/contrib
 "repositories": [
   {
     "type": "vcs",
-    "url": "https://github.com/nikolabintev/headless-jsonapi-recipe"
+    "url": "git@github.com:ffwagency/dnext-jsonapi-recipe.git"
   }
 ]
 ```
@@ -45,7 +45,7 @@ web/recipes/contrib
 ### Require the package
 Require the package using composer.
 ```bash
-composer require nikolabintev/headless-jsonapi-recipe
+composer require ffwagency/dnext-jsonapi-recipe
 ```
 
 ---
@@ -65,7 +65,7 @@ drush cr
 <strong>Important!</strong> The recipe must be applied within the Drupal container from Drupal's project root directory.
 ```bash
 cd {PROJECT_ROOT}
-php core/scripts/drupal recipe recipes/contrib/headless-jsonapi-recipe
+php core/scripts/drupal recipe recipes/contrib/dnext-jsonapi-recipe
 ```
 ---
 ## Features
@@ -91,6 +91,6 @@ The JSON:API Schema module provides a JSON Schema for the JSON:API output.
 ### Next.js Integration
 The Next.js module facilitates integration with the Next.js framework, enabling server-side rendering and static site generation.
 
+## Patches
 
-Maintainers
-Nikola Bintev (GitHub)
+The list of patches defined in the [patches.json](patches.json) file should be applied to the project root composer.json file.

@@ -1,6 +1,6 @@
 {
-    "name": "nikolabintev/headless-jsonapi-recipe",
-    "description": "Headless Drupal with JSON:API",
+    "name": "jakala/dnext-jsonapi-recipe",
+    "description": "The DNext - JSON:API recipe provides a comprehensive setup for creating a decoupled Drupal application using JSON:API and Next",
     "type": "drupal-recipe",
     "license": "GPL-2.0-or-later",
     "authors": [

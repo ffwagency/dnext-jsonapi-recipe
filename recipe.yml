@@ -1,5 +1,5 @@
-name: 'Headless - JSON:API'
-description: 'Headless Drupal with JSON:API'
+name: 'DNext - JSON:API'
+description: 'The DNext - JSON:API recipe provides a comprehensive setup for creating a decoupled Drupal application using JSON:API and Next'
 type: 'Site'
 
 install:
