@@ -1,0 +1,12 @@
+{
+    "patches": {
+        "drupal/next": {
+            "Add status property to Content Translations field, next_extras": "https://www.drupal.org/files/issues/2024-07-25/next-translation_status-3463748-3.patch"
+        },
+        "drupal/jsonapi_schema": {
+            "Drupal 11 compatibility fixes for jsonapi_schema": "https://www.drupal.org/files/issues/2024-03-18/jsonapi_schema.8.x-1.x-dev.rector.patch",
+            "Error: uri is not a valid type for a JSON document": "./patches/jsonapi_schema/3390505-3.patch",
+            "Compatibility with json-schema-to-typescript": "./patches/jsonapi_schema/jsonapi_schema.dnext.patch"
+        }
+    }
+} 
