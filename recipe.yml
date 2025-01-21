@@ -3,6 +3,7 @@ description: 'The DNext - JSON:API recipe provides a comprehensive setup for cre
 type: 'Site'
 
 install:
+  - basic_auth
   - jsonapi
   - jsonapi_defaults
   - jsonapi_extras
