@@ -3,6 +3,9 @@
         "drupal/next": {
             "Add status property to Content Translations field, next_extras": "https://www.drupal.org/files/issues/2024-07-25/next-translation_status-3463748-3.patch"
         },
+        "drupal/decoupled_router": {
+          "Unable to resolve path on node in other language than default": "https://www.drupal.org/files/issues/2024-08-05/decouple_router-3111456-resolve-language-issue-63--get-translation-re-rolled-and-good-redirect.patch"
+        },        
         "drupal/jsonapi_schema": {
             "Drupal 11 compatibility fixes for jsonapi_schema": "https://www.drupal.org/files/issues/2024-03-18/jsonapi_schema.8.x-1.x-dev.rector.patch",
             "Error: uri is not a valid type for a JSON document": "https://git.drupalcode.org/project/jsonapi_schema/-/merge_requests/11.diff",
