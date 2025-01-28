@@ -10,6 +10,7 @@ install:
   - jsonapi_image_styles
   - jsonapi_menu_items
   - jsonapi_resources
+  - jsonapi_schema
   - image
   - next
 
