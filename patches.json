@@ -5,7 +5,7 @@
         },
         "drupal/jsonapi_schema": {
             "Drupal 11 compatibility fixes for jsonapi_schema": "https://www.drupal.org/files/issues/2024-03-18/jsonapi_schema.8.x-1.x-dev.rector.patch",
-            "Error: uri is not a valid type for a JSON document": "./patches/jsonapi_schema/3390505-3.patch",
+            "Error: uri is not a valid type for a JSON document": "https://git.drupalcode.org/project/jsonapi_schema/-/merge_requests/11.diff",
             "Compatibility with json-schema-to-typescript": "./patches/jsonapi_schema/jsonapi_schema.dnext.patch"
         }
     }
