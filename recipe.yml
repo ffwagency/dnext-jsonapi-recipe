@@ -12,7 +12,6 @@ install:
   - jsonapi_resources
   - jsonapi_schema
   - image
-  - next
 
 config:
   actions:
